@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         arrContent = new ArrayList<>();
-        addControl();
+       
 
         arrContent.add(new Image(R.drawable.a01,"Android 1.5 announced on April 27, 2009 was the first release to officially use a codename based on a dessert and it was called Cupcake. It included several new UI features (Source: Google)"));
         arrContent.add(new Image(R.drawable.a02,"Android 1.6 codenamed Donut was announced on September 15, 2009 introduced voice and text entry search with multi-lingual speech synthesizer and support for WVGA screen (Source: Android)"));
